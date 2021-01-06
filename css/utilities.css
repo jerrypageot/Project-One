@@ -7,3 +7,36 @@
 .text-secondary {
 	color: darkcyan;
 }
+
+/* Button */
+
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+	background-color: darkorange;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: darkorange;
+}
+.btn-secondary {
+	color: #fff;
+	background-color: rgb(245, 213, 74);
+}
+.btn-dark {
+	color: #fff;
+	background-color: #333;
+}
+.btn-light {
+	color: #333;
+	background-color: #f4f4f4;
+}
