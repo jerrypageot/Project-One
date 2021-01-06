@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;500;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap");
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Barlow", sans-serif;
 	background: #ffffff;
 	color: #333;
 	line-height: 1.6;
@@ -50,7 +50,7 @@ img {
 	padding: 10px 20px;
 	margin: 0 5px;
 	font-size: 15px;
-	font-weight: 800;
+	font-weight: 600;
 }
 .navbar a:hover {
 	border-bottom: 2px solid rgb(228, 17, 98);
@@ -85,12 +85,13 @@ img {
 }
 
 .hero .content h1 {
-	font-size: 60px;
-	font-weight: 900;
+	font-size: 90px;
+	font-weight: 700;
 }
 
 .hero .content p {
 	font-size: 25px;
+	font-weight: 200;
 	max-width: 600px;
 	margin: 15px 0 30px;
 }
@@ -115,20 +116,18 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-self: center;
+	align-items: center;
 	padding: 60px 100px;
 }
 .services-header {
-	padding-left: 525px;
-	margin-bottom: 3rem;
-	font-size: 40px;
+	font-family: "Teko", sans-serif;
+	margin: 2rem 0;
+	font-size: 50px;
 	font-weight: 900;
 }
 
 .services-items {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .services-card {

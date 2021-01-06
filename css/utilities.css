@@ -8,6 +8,10 @@
 	color: darkcyan;
 }
 
+.container {
+	margin: auto;
+}
+
 /* Button */
 
 .btn {
