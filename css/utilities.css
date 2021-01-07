@@ -8,11 +8,6 @@
 	color: darkcyan;
 }
 
-.container {
-	display: flex;
-	flex-direction: column;
-}
-
 /* Button */
 
 .btn {
