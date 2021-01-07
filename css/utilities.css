@@ -16,6 +16,7 @@
 /* Button */
 
 .btn {
+	font-family: "Barlow", sans-serif;
 	cursor: pointer;
 	display: inline-block;
 	padding: 10px 30px;
@@ -69,6 +70,26 @@
 
 .flex-columns img {
 	width: 100%;
-	height: 100%;
+	height: 85%;
 	object-fit: cover;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.flex-columns .column-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 160px;
+}
+
+.flex-columns h2 {
+	font-family: "Teko", sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+}
+
+.flex-columns p {
+	font-size: 17px;
+	width: 900px;
+	margin: 20px 0;
 }

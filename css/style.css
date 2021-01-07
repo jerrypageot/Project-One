@@ -166,3 +166,15 @@ img {
 	font-weight: 800;
 	color: #fff;
 }
+
+.about-btn {
+	font-family: "Teko", sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 40px;
+	color: #fff;
+	background-color: darkorange;
+	border: none;
+	border-radius: 5px;
+}
