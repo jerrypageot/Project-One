@@ -53,7 +53,7 @@ img {
 	font-weight: 600;
 }
 .navbar a:hover {
-	border-bottom: 2px solid rgb(228, 17, 98);
+	border-bottom: 2px solid darkorange;
 }
 
 .navbar ul {
@@ -114,10 +114,10 @@ img {
 
 #services {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 60px 100px;
+	/* padding: 60px 100px; */
+	margin: 2rem 0 6rem 0;
 }
 .services-header {
 	font-family: "Teko", sans-serif;
@@ -134,7 +134,7 @@ img {
 	overflow: hidden;
 	width: 400px;
 	margin-right: 2rem;
-	border-bottom: 3px solid crimson;
+	border-bottom: 3px solid darkorange;
 }
 
 .services-img {
@@ -153,14 +153,11 @@ img {
 	margin-bottom: 3rem;
 }
 
-.services-btn {
-	display: none;
-}
 .services-btn:hover {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: crimson;
+	background: darkorange;
 	padding: 10px 0;
 	/* margin-top: 3rem; */
 }
