@@ -8,6 +8,10 @@
 	color: darkcyan;
 }
 
+.container {
+	width: 1300px;
+}
+
 /* Button */
 
 .btn {
