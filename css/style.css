@@ -114,7 +114,7 @@ img {
 
 #services {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	margin: 2rem 0 6rem 0;
 }
@@ -133,7 +133,7 @@ img {
 .services-card {
 	overflow: hidden;
 	width: 400px;
-	margin-right: 1.5rem;
+	margin-right: 1.2rem;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 }
@@ -144,8 +144,6 @@ img {
 }
 
 .services-txt h4 {
-	width: 400px;
-	display: block;
 	font-size: 23px;
 	font-weight: 600;
 	margin-bottom: 3rem;
@@ -174,14 +172,14 @@ img {
 	color: #fff;
 	background-color: darkorange;
 	border: none;
-	border-radius: 5px;
+	border-radius: 3px;
 }
 
 /* projects */
 #projects-grid {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 }
 
 .projects-header {
@@ -197,12 +195,13 @@ img {
 
 .projects-column {
 	width: 400px;
-	margin-right: 1.5rem;
+	margin-right: 1.2rem;
 }
 
 .projects-column img {
 	height: 470px;
 	object-fit: cover;
+	border-radius: 3px;
 }
 
 .projects-column img:hover {
