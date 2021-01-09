@@ -123,6 +123,7 @@ img {
 	margin: 2rem 0;
 	font-size: 50px;
 	font-weight: 900;
+	color: #333;
 }
 
 .services-items {
@@ -160,9 +161,6 @@ img {
 }
 
 .services-btn {
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
 	border-bottom: 2px solid darkorange;
 	padding: 10px 0;
 	margin-top: 3rem;
@@ -177,7 +175,6 @@ img {
 	font-family: "Teko", sans-serif;
 	font-size: 16px;
 	cursor: pointer;
-	display: inline-block;
 	padding: 10px 40px;
 	color: #fff;
 	background-color: darkorange;
@@ -197,6 +194,7 @@ img {
 	margin: 2rem 0;
 	font-size: 50px;
 	font-weight: 900;
+	color: #333;
 }
 
 .projects-items {
@@ -259,12 +257,72 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 4rem;
+}
+
+#team h2 {
+	font-size: 50px;
+	font-weight: 900;
+	color: #333;
+	font-family: "Teko", sans-serif;
+	margin-top: 4rem;
+	margin-bottom: 1.5rem;
 }
 
 .team-items {
 	display: flex;
 }
 
-.team-member {
-	margin-right: 2rem;
+.team-member-card {
+	padding: 3rem;
+	width: 400px;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-right: 1rem;
+	position: relative;
+	color: #e8e9eb;
+	box-shadow: 0 0 50px -9px;
+}
+.team-member-card:hover {
+	transform: scale(1.03);
+	transition: all 0.3s ease-in-out;
+}
+
+.team-img {
+	padding-bottom: 1rem;
+}
+.team-img img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 80%;
+}
+
+.team-name h4 {
+	color: #333;
+	font-size: 25px;
+	padding-bottom: 1rem;
+}
+
+.team-title {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 45px;
+	padding: 15px;
+	width: 190px;
+	background: rgb(178, 123, 230);
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.team-title h4 {
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Teko", sans-serif;
 }
