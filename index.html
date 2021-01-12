@@ -10,22 +10,22 @@
 </head>
 <body id="home">
     <header class="hero">
-        <div id="navbar" class="navbar">
+        <div id="navbar" class="navbar top">
             <h1 class="logo">Construction</h1>
             <nav>
                 <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="projects">Projects</a></li>
-                    <li><a href="services">Services</a></li>
-                    <li><a href="Contact">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects-grid">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="content">
             <h1>We Build Your<span class="text-primary"> Dreams</span></h1>
             <p>We Build Beautiful Dream Homes</p>
-            <a href="#about" class="btn">GET A QUOTE</a>
+            <a href="#" class="btn">GET A QUOTE</a>
         </div>
     </header>
     <main>
@@ -75,7 +75,7 @@
         </section>
 
         <!--About Us  -->
-        <section class="about-us flex-columns">
+        <section class="about-us flex-columns" id="about">
             <div class="row">
                 <div class="column">
                     <div class="column-1">
@@ -206,5 +206,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const navbar = document.getElementById('navbar');
+
+        window.onscroll = function() {
+            if(window.pageYOffset > 100) {
+                navbar.classList.remove('top');
+            } else{
+                navbar.classList.add('top')
+            }
+        }
+    </script>
 </body>
 </html>

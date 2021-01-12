@@ -6,6 +6,10 @@
 	margin: 0;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Barlow", sans-serif;
 	background: #ffffff;
@@ -42,6 +46,20 @@ img {
 	position: fixed;
 	top: 0px;
 	padding: 0 100px;
+	background: rgba(71, 52, 1, 0.582);
+}
+.navbar.top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #ffffff;
+	opacity: 0.8;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	top: 0px;
+	padding: 0 100px;
+	background: transparent;
 }
 
 .navbar a {
