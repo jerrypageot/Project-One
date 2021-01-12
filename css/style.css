@@ -288,7 +288,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 4rem;
-	height: 60vh;
+	/* height: 60vh; */
 }
 
 #team h2 {
@@ -366,7 +366,7 @@ img {
 	background: rgb(6, 5, 78);
 	display: flex;
 	justify-content: center;
-	height: 30vh;
+	/* height: 30vh; */
 }
 
 .links h2 {
@@ -462,7 +462,7 @@ img {
 
 	.services-header {
 		font-family: "Teko", sans-serif;
-		padding-left: 2rem;
+		padding-left: 1rem;
 		font-size: 50px;
 		font-weight: 900;
 		color: #333;
@@ -537,7 +537,7 @@ img {
 	.projects-header {
 		font-family: "Teko", sans-serif;
 		padding-left: 1rem;
-		font-size: 45px;
+		font-size: 50px;
 		font-weight: 900;
 		color: #333;
 	}
@@ -562,5 +562,93 @@ img {
 		object-fit: cover;
 		border-radius: 3px;
 		margin-bottom: 1rem;
+	}
+
+	/* Experience */
+	#experience {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgb(6, 5, 78);
+		height: 65vh;
+		margin-top: 4rem;
+		margin-bottom: 4rem;
+	}
+
+	.items {
+		padding-left: 20px;
+	}
+	.items h2 {
+		line-height: 1;
+	}
+	.items p {
+		width: 350px;
+		display: block;
+	}
+
+	/* Team */
+	#team {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 4rem;
+		/* height: 100vh; */
+	}
+
+	.team-items {
+		display: flex;
+		flex-direction: column;
+		margin-left: 1rem;
+		align-items: center;
+	}
+
+	.team-member-card {
+		padding: 3rem;
+		width: 350px;
+		height: 450px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: flex-start;
+		position: relative;
+		color: #e8e9eb;
+		box-shadow: 0 0 50px -9px;
+		margin-bottom: 1rem;
+		/* border: 1px solid coral; */
+	}
+
+	#team h2 {
+		font-size: 50px;
+		font-weight: 900;
+		color: #333;
+		font-family: "Teko", sans-serif;
+		margin-bottom: 0;
+		padding-left: 1rem;
+	}
+
+	/* Footer */
+	#footer {
+		background: rgb(6, 5, 78);
+		display: flex;
+		justify-content: center;
+		/* height: 30vh; */
+	}
+
+	.footer-items {
+		padding-top: 2rem;
+		padding-left: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.footer-copy-right p {
+		color: #fff;
+		text-align: center;
+	}
+
+	.links {
+		padding-bottom: 1.5rem;
 	}
 }
