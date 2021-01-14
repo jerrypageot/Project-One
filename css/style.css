@@ -6,7 +6,7 @@
 	margin: 0;
 }
 
-html{
+html {
 	scroll-behavior: smooth;
 }
 
@@ -227,6 +227,9 @@ img {
 	background-color: #f36f00;
 	border: none;
 	border-radius: 3px;
+}
+.about-btn:hover {
+	opacity: 0.9;
 }
 
 /* projects */
